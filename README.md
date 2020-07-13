@@ -1,10 +1,20 @@
+[//]: # (Image References)
+
+[image1]: ./images/key_pts_example.png "Facial Keypoint Detection"
+
+
+
 # CV_Facial_Keypoint_Detection
 Implementation of a Facial Keypoint Detector with a Neural Network
 
 
 ## Summary
 
+In this project, I combine computer vision techniques and deep learning architectures to build a facial keypoint detection system that takes in any image with faces, and predicts the location of 68 distinguishing keypoints on each face.
 
+Facial keypoints include points around the eyes, nose, and mouth on a face and are used in many applications. These applications include: facial tracking, facial pose recognition, facial filters, and emotion recognition. My code, broken up into various notebooks show that the code is  able to look at any image, detect faces, and predict the locations of facial keypoints on each face. Some examples of these keypoints are pictured below.
+
+![Facial Keypoint Detection][image1]
 
 ## Network Architecture
 
