@@ -2,10 +2,16 @@
 Implementation of a Facial Keypoint Detector with a Neural Network
 
 
-I started with a series of Convolution, activation, maxpooling layers followed by fully connected layers. I did add more another convolutional layer as well as dropout to help avoid overfitting. For the loss function I chose Mean Square Error because the network is predicting a continuous set of values, as opposed to distinct categories. For the optimizer I chose Adam because it uses an adaptive learning rate.
+## Summary
 
-## Architecture
 
+
+## Network Architecture
+
+### Description
+I started with a series of Convolution, activation, maxpooling layers followed by fully connected layers. I did add more another convolutional layer as well as dropout to help avoid overfitting. For the loss function I chose Mean Square Error because the network is predicting a continuous set of values, as opposed to distinct categories. For the optimizer I chose Adam because it uses an adaptive learning rate. The detailed model description is below.
+
+### Model
 ```
 Net(
   (conv): Sequential(
@@ -31,4 +37,15 @@ Net(
     (6): Linear(in_features=256, out_features=136, bias=True)
   )
 )
+```
+
+## How to use this repository
+
+Simply go through the notebooks in the order specified by the first number given at the beginning of each notebook name. For reference, they are listed here:
+
+```
+1. Load and Visualize Data.ipynb
+2. Define the Network Architecture.ipynb
+3. Facial Keypoints Detection, Complete Pipeline.ipynb
+4. Fun with Keypoints.ipynb
 ```
