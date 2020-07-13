@@ -19,7 +19,7 @@ Facial keypoints include points around the eyes, nose, and mouth on a face and a
 ## Network Architecture
 
 ### Description
-I started with a series of Convolution, activation, maxpooling layers followed by fully connected layers. I did add more another convolutional layer as well as dropout to help avoid overfitting. For the loss function I chose Mean Square Error because the network is predicting a continuous set of values, as opposed to distinct categories. For the optimizer I chose Adam because it uses an adaptive learning rate. The detailed model description is below.
+I started with a series of Convolution, activation, maxpooling layers followed by fully connected layers. I did added more convolutional layers as well as dropout to help avoid overfitting. For the loss function I chose Mean Square Error because the network is predicting a continuous set of values, as opposed to distinct categories. For the optimizer I chose Adam because it uses an adaptive learning rate. The detailed model description is below.
 
 ### Model
 ```
